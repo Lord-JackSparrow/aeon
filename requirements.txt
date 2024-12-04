@@ -10,6 +10,7 @@ bencoding
 cinemagoer
 cloudscraper
 dnspython
+electrogram
 feedparser
 flask
 gevent
@@ -18,7 +19,7 @@ google-auth-httplib2
 google-auth-oauthlib
 gunicorn
 httpx
-langcodes[data]
+langcodes
 lxml
 motor
 mutagen
@@ -31,14 +32,12 @@ pycountry
 python-dotenv
 pyshorteners
 python-magic
-quoters
 qbittorrent-api
 requests
 speedtest-cli
 telegraph
 tenacity
-tgcrypto
+uv
 uvloop
 xattr
-yt-dlp
-git+https://github.com/5hojib/pyrogram.git@dev
+yt-dlp[default]
